@@ -11,9 +11,28 @@
     <header>Header</header>
     <section>
         <div class="cal-box">
-            <div class="cal-box-inside" id="calDisL">Input Section
+            <div class="cal-box-inside" id="calDisL"><h1>Input Section</h1>
+                <div class="input-box">
+                    <p>Oil Price</p>
+                    <input type="number" id="oilPrice" placeholder="Enter Price">
+                </div>
+
+                <div class="input-box" id="distanceBox">
+                    <p>Distance(Km)</p>
+                    <input type="number" id="distance" placeholder="Enter Distance">
+                </div>
+            
+                <div class="input-box" id="consump">
+                    <p>Rate of Consumption</p>
+                    <input type="number" id="rateofc" placeholder="Enter Rate">
+                </div>
+                <button id="btn" onclick="getVal()">Submit</button>
             </div>
-            <div class="cal-box-inside" id="calDisR">Output Section
+            <div class="cal-box-inside" id="calDisR"><h1>Output Section</h1>
+                <div class="output-box">
+                    <p class="output" id="output1"> </p>
+                </div>
+                
             </div>
         </div>
     </section>

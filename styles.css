@@ -22,6 +22,16 @@ header{
     padding: 150px;
     height: 200px;
 }
+.input-box ,.output-box{
+    margin: 20px;
+}
+input{
+    text-align: center;
+}
+
+#output1{
+    background-color: white;
+}
 
 /* Footer */
 footer{
