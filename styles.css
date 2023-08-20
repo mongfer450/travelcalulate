@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+header{
+    padding: 30px;
+    text-align: center;
+}
+/* Section */
+.cal-box{
+    border: 1px solid black;
+    background-color: brown;
+    padding: 100px 0 100px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cal-box-inside{
+    border: 1px solid black;
+    text-align: center;    
+    background-color: orange;
+    padding: 150px;
+    height: 200px;
+}
+
+/* Footer */
+footer{
+    padding: 15px;
+    text-align: center;
+}
